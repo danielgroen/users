@@ -9,10 +9,11 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "lplabs/wordpress-muplugin-installer": "^2.0",
     "php": ">=7.2"
   },
-  "extra": {
-    "wordpress-muplugin-entry": "users.php"
+  "scripts": {
+    "post-install-cmd": [
+      "mv users.php ../"
+    ]
   }
 }
