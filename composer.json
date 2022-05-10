@@ -9,11 +9,10 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.2"
+    "php": ">=7.2",
+    "danielgroen/mu-plugin-installer": "dev-master"
   },
-  "scripts": {
-    "post-install-cmd": [
-      "mv users.php ../"
-    ]
+  "extra": {
+    "installer-loader": "users.php"
   }
 }
