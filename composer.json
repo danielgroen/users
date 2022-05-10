@@ -1,6 +1,6 @@
 {
   "name": "danielgroen/users",
-  "type": "wordpress-muplugin",
+  "type": "devaloka-muplugin",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
