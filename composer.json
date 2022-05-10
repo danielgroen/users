@@ -10,7 +10,7 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=7.2",
-    "danielgroen/mu-plugin-installer": "dev-master"
+    "danielgroen/mu-plugin-installer": "dev-composer-2-support"
   },
   "extra": {
     "installer-loader": "users.php"
