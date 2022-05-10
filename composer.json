@@ -1,0 +1,14 @@
+{
+  "name": "danielgroen/users",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "danielgroen"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.2"
+  }
+}
