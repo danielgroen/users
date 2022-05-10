@@ -9,11 +9,10 @@
   ],
   "minimum-stability": "stable",
   "require": {
+    "devaloka/mu-plugin-installer": "~0.2.0",
     "php": ">=7.2"
   },
-  "scripts": {
-    "post-install-cmd": [
-      "rm -f composer.json"
-    ]
+  "extra": {
+    "installer-loader": "users.php"
   }
 }
