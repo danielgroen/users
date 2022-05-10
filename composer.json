@@ -10,6 +10,7 @@
   "minimum-stability": "stable",
   "require": {
     "devaloka/mu-plugin-installer": "~0.2.0",
+    "composer-plugin-api": "~1.1.0",
     "php": ">=7.2"
   },
   "extra": {
