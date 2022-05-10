@@ -10,5 +10,10 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=7.2"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "rm -f composer.json"
+    ]
   }
 }
